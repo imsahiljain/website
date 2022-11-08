@@ -6,7 +6,6 @@ import {
   HStack,
   Spacer,
   Stack,
-  Text,
   Avatar,
   Image,
 } from "@chakra-ui/react";
@@ -23,23 +22,25 @@ export const Navbar = () => {
     >
       <HStack>
         <Link to="/">
-          <Avatar
-            name="Dan Abrahmov"
+          {/* <Avatar
+            name="Sahil Jain"
             size="lg"
             borderRadius="lg"
             src="/pfp2.jpeg"
+          /> */}
+          <Image
+            boxSize="70px"
+            objectFit="cover"
+            borderRadius="lg"
+            src="/pfp2.jpeg"
+            alt="Sahil Jain"
           />
         </Link>
         <Spacer />
         <Spacer />
-        <Link to="/about">
+        <Link to="/">
           <Button as="a" variant="ghost" fontSize="lg">
-            About
-          </Button>
-        </Link>
-        <Link to="/projects">
-          <Button as="a" variant="ghost" fontSize="lg">
-            Projects
+            Home
           </Button>
         </Link>
         <Link to="/awards">

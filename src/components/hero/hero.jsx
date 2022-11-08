@@ -1,22 +1,40 @@
 import React from "react";
-
-import { Container, Heading, Stack, Text, Link } from "@chakra-ui/react";
+import { Container, Heading, Stack, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <>
-      <Container as="section" maxW="6xl" pt={[4, 8]} mt="6">
+      <Container as="section" maxW="6xl" pt={[4, 8]} mt="4">
         <Stack spacing={[4, 8]}>
           <Heading
             fontFamily="Circular-BB"
             fontSize="6xl"
             letterSpacing="-3.5px"
           >
-            Hello there, I&apos;m{" "}
-            <Link style={{ color: "#e67cf2", fontWeight: "bold" }}>Sahil,</Link>
+            Hi, I&apos;m{" "}
+            <Link
+              style={{
+                color: "#e67cf2",
+                fontWeight: "bold",
+                textDecoration: "none",
+              }}
+            >
+              Sahil.
+            </Link>
+            <Text
+              fontSize="xl"
+              letterSpacing="-0.1px"
+              fontFamily="Circular-S"
+              fontWeight="500"
+              color="#d6d6d6"
+            >
+              developer · player · artist
+            </Text>
           </Heading>
-          <Text fontFamily="Circular-S" fontSize="3xl">
-            a 16 y/o Delhi 12th grade student at{" "}
+
+          <Text fontFamily="Circular-S" fontSize="3xl" letterSpacing="-0.2px">
+            a 16 y/o high school senior at{" "}
             <Link
               href="https://www.google.com"
               style={{
@@ -29,7 +47,7 @@ const Hero = () => {
                 paddingBottom: "1px",
               }}
             >
-              Montfort School
+              Montfort School, Delhi
             </Link>
             . I&apos;m enthusiastic about Web development and Programming, and
             I&apos;m intrigued by ML/AI, Science and Sports. I&apos;m a{" "}
@@ -55,6 +73,7 @@ const Hero = () => {
                   "linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(237, 137, 54, 0.25) 40%)",
                 paddingBottom: "1px",
               }}
+              to="/artwork"
             >
               artist
             </Link>
@@ -74,25 +93,23 @@ const Hero = () => {
             </Link>
             .
           </Text>
-          <Text fontFamily="Circular-S" fontSize="3xl">
-            <b>Want to connect?</b> Drop a mail @{" "}
+          <Text fontFamily="Circular-S" fontSize="3xl" letterSpacing="-0.2px">
+            Feel free to reach out via email at{" "}
             <Link
-              // fontSize='2X\'
               href="mailto:sahil2006sheenu@gmail.com"
               style={{
                 color: "#05d7a0",
                 fontWeight: "bold",
                 textDecoration: "none",
-                borderBottom: "2px dashed #05d7a0",
+                background:
+                  "linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(5, 214, 158, 0.25) 40%)",
                 paddingBottom: "1px",
               }}
             >
-              sahil2006sheenu@gmail.com
-            </Link>
+              emailofsahiljain@gmail.com
+            </Link>{" "}
+            or through any of my socials!
           </Text>
-          {/* <Link fontSize="xl" pl="1" color="#dedede">
-            Know more &rarr;
-          </Link> */}
         </Stack>
       </Container>
     </>
