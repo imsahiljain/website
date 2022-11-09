@@ -26,6 +26,8 @@ export const Footer = () => (
       <Text fontSize="xl" color="subtle" fontWeight="bold">
         made by{" "}
         <Link
+          href="https://github.com/imsahiljain"
+          target="_blank"
           style={{
             textDecoration: "none",
             borderBottom: "1.5px dashed #fff",
@@ -42,25 +44,29 @@ export const Footer = () => (
       <ButtonGroup variant="ghost">
         <IconButton
           as="a"
-          href="#"
+          href="https://www.linkedin.com/in/imsahiljain"
+          target="_blank"
           aria-label="LinkedIn"
           icon={<FaLinkedin fontSize="1.25rem" />}
         />
         <IconButton
           as="a"
-          href="#"
+          href="https://github.com/imsahiljain"
+          target="_blank"
           aria-label="GitHub"
           icon={<FaGithub fontSize="1.25rem" />}
         />
         <IconButton
           as="a"
-          href="#"
+          href="https://twitter.com/sahiljainx30"
+          target="_blank"
           aria-label="Twitter"
           icon={<FaTwitter fontSize="1.25rem" />}
         />
         <IconButton
           as="a"
-          href="#"
+          href="https://www.instagram.com/sahiljainx30"
+          target="_blank"
           aria-label="Instagram"
           icon={<FaInstagram fontSize="1.25rem" />}
         />

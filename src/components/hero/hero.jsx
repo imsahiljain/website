@@ -96,7 +96,6 @@ const Hero = () => {
           <Text fontFamily="Circular-S" fontSize="3xl" letterSpacing="-0.2px">
             Feel free to reach out via email at{" "}
             <Link
-              href="mailto:sahil2006sheenu@gmail.com"
               style={{
                 color: "#05d7a0",
                 fontWeight: "bold",

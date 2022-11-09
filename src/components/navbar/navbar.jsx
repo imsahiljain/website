@@ -33,7 +33,7 @@ export const Navbar = () => {
             objectFit="cover"
             borderRadius="lg"
             src="/pfp2.jpeg"
-            alt="Sahil Jain"
+            alt="Sahil Jain's Photo"
           />
         </Link>
         <Spacer />
