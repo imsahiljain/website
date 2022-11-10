@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <Container as="section" maxW="6xl" pt={[4, 8]} mt="4">
+      <Container
+        as="section"
+        maxW="6xl"
+        pt={[4, 8]}
+        mt={{ base: 1, md: 4, lg: 4 }}
+      >
         <Stack spacing={[4, 8]}>
           <Heading
             fontFamily="Circular-BB"
@@ -33,7 +38,11 @@ const Hero = () => {
             </Text>
           </Heading>
 
-          <Text fontFamily="Circular-S" fontSize="3xl" letterSpacing="-0.2px">
+          <Text
+            fontFamily="Circular-S"
+            fontSize={{ base: "2xl", md: "3xl", lg: "3xl" }}
+            letterSpacing="-0.2px"
+          >
             a 16 y/o high school senior at{" "}
             <Link
               href="https://www.google.com"
@@ -93,7 +102,11 @@ const Hero = () => {
             </Link>
             .
           </Text>
-          <Text fontFamily="Circular-S" fontSize="3xl" letterSpacing="-0.2px">
+          <Text
+            fontFamily="Circular-S"
+            fontSize={{ base: "2xl", md: "3xl", lg: "3xl" }}
+            letterSpacing="-0.2px"
+          >
             Feel free to reach out via email at{" "}
             <Link
               style={{

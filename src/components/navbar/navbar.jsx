@@ -22,19 +22,20 @@ export const Navbar = () => {
     >
       <HStack>
         <Link to="/">
-          {/* <Avatar
+          <Avatar
             name="Sahil Jain"
             size="lg"
             borderRadius="lg"
             src="/pfp2.jpeg"
-          /> */}
-          <Image
+            alt="Sahil Jain's Photo"
+          />
+          {/* <Image
             boxSize="70px"
             objectFit="cover"
             borderRadius="lg"
             src="/pfp2.jpeg"
             alt="Sahil Jain's Photo"
-          />
+          /> */}
         </Link>
         <Spacer />
         <Spacer />

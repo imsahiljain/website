@@ -23,7 +23,11 @@ export const Footer = () => (
   >
     <Divider />
     <HStack>
-      <Text fontSize="xl" color="subtle" fontWeight="bold">
+      <Text
+        fontSize={{ base: "lg", md: "xl", lg: "xl" }}
+        color="subtle"
+        fontWeight="bold"
+      >
         made by{" "}
         <Link
           href="https://github.com/imsahiljain"
@@ -37,7 +41,6 @@ export const Footer = () => (
         >
           me
         </Link>{" "}
-        . &copy; {new Date().getFullYear()}
       </Text>
       <Spacer />
       <Spacer />
