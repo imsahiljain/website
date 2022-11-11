@@ -34,7 +34,7 @@ const Hero = () => {
               fontWeight="500"
               color="#d6d6d6"
             >
-              developer · player · artist
+              developer · athlete · artist
             </Text>
           </Heading>
 
@@ -58,8 +58,9 @@ const Hero = () => {
             >
               Montfort School, Delhi
             </Link>
-            . I&apos;m enthusiastic about Web development and Programming, and
-            I&apos;m intrigued by ML/AI, Science and Sports. I&apos;m a{" "}
+            . I&apos;m passionate about web dev, programming, hackathons,
+            startups, space, sports and surprisingly chemistry. I love
+            competing, I&apos;m a{" "}
             <Link
               style={{
                 color: "#ecc94b",
@@ -70,7 +71,7 @@ const Hero = () => {
                 paddingBottom: "1px",
               }}
             >
-              National level Basketball player
+              national basketball player
             </Link>
             , an{" "}
             <Link
@@ -86,8 +87,7 @@ const Hero = () => {
             >
               artist
             </Link>
-            , a frontend web dev who is presently learning Next.js & Typescript,
-            and have won 10+ tech events, including 1st place at the{" "}
+            , a frontend web dev learning backend. Currently, I&apos;m reading{" "}
             <Link
               style={{
                 color: "#4299e1",
@@ -98,9 +98,9 @@ const Hero = () => {
                 paddingBottom: "1px",
               }}
             >
-              IIT Bombay Techfest &apos;21
-            </Link>
-            .
+              Zero to One by Peter Thiel
+            </Link>{" "}
+            and grinding integration.
           </Text>
           <Text
             fontFamily="Circular-S"
