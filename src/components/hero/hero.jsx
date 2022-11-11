@@ -59,8 +59,8 @@ const Hero = () => {
               Montfort School, Delhi
             </Link>
             . I&apos;m passionate about web dev, programming, hackathons,
-            startups, space, sports and surprisingly chemistry. I love
-            competing, I&apos;m a{" "}
+            startups, space, sports, and, surprisingly, chemistry. I enjoy
+            competing; I&apos;m a{" "}
             <Link
               style={{
                 color: "#ecc94b",
@@ -87,7 +87,8 @@ const Hero = () => {
             >
               artist
             </Link>
-            , a frontend web dev learning backend. Currently, I&apos;m reading{" "}
+            , a frontend web developer learning backend. Currently, I&apos;m
+            reading{" "}
             <Link
               style={{
                 color: "#4299e1",
