@@ -1,16 +1,17 @@
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Awards from "./pages/awards";
-import Artwork from "./pages/artwork.jsx";
 
+const Home = lazy(() => import("./pages/home"));
+const Artwork = lazy(() => import("./pages/artwork.jsx"));
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/awards" element={<Awards />} />
-        <Route path="/artwork" element={<Artwork />} />
-      </Routes>
+      <Suspense fallback={<h1>Loading..</h1>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/artwork" element={<Artwork />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }

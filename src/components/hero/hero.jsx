@@ -39,7 +39,7 @@ const Hero = () => {
           </Heading>
 
           <Text
-            fontFamily="Circular-S"
+            // fontFamily="Circular-S"
             fontSize={{ base: "2xl", md: "3xl", lg: "3xl" }}
             letterSpacing="-0.2px"
           >
@@ -99,12 +99,11 @@ const Hero = () => {
                 paddingBottom: "1px",
               }}
             >
-              Zero to One by Peter Thiel
+              Zero to One by Peter Thiel.
             </Link>{" "}
-            and grinding integration.
           </Text>
           <Text
-            fontFamily="Circular-S"
+            // fontFamily="Circular-S"
             fontSize={{ base: "2xl", md: "3xl", lg: "3xl" }}
             letterSpacing="-0.2px"
           >

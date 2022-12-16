@@ -44,9 +44,9 @@ export const Navbar = () => {
             Home
           </Button>
         </Link>
-        <Link to="/awards">
+        <Link to="/artwork">
           <Button as="a" variant="ghost" fontSize="lg">
-            Awards
+            Artwork
           </Button>
         </Link>
       </HStack>

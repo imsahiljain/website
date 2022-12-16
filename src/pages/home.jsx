@@ -9,10 +9,6 @@ const Home = () => {
     <>
       <Helmet>
         <title>Sahil Jain | Home</title>
-        <meta
-          name="description"
-          content="Hi, I'm Sahil, a developer, basketball player and an artist. I'm a 16 y/o high school senior at Montfort School in Delhi."
-        />
       </Helmet>
       <Navbar />
       <Hero />
