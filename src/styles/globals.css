@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Circular-S' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #17181b !important;
+    background-image: url('/dots.svg') !important;
+    color: #fff;
+}
+
+@font-face {
+    font-family: Circular-BB;
+    src: url("/fonts/CircularStd-Black.ttf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Circular-S;
+    src: url("/fonts/CircularStd-Book.ttf") format("opentype");
+    font-display: swap;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(195, 195, 195, 0.394);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(195, 195, 195, 0.241);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(195, 195, 195, 0.156);
+}
+
+::selection {
+    background: rgba(195, 195, 195, 0.156);
+}

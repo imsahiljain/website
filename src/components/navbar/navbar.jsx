@@ -7,11 +7,12 @@ import {
   Spacer,
   Stack,
   Avatar,
-  Image,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 export const Navbar = () => {
+  const router = useRouter();
   return (
     <Container
       as={Stack}
@@ -21,7 +22,7 @@ export const Navbar = () => {
       spacing={4}
     >
       <HStack>
-        <Link to="/">
+        <Link href="/">
           <Avatar
             name="Sahil Jain"
             size="lg"
@@ -29,26 +30,27 @@ export const Navbar = () => {
             src="/pfp2.jpeg"
             alt="Sahil Jain's Photo"
           />
-          {/* <Image
-            boxSize="70px"
-            objectFit="cover"
-            borderRadius="lg"
-            src="/pfp2.jpeg"
-            alt="Sahil Jain's Photo"
-          /> */}
         </Link>
         <Spacer />
         <Spacer />
-        <Link to="/">
-          <Button as="a" variant="ghost" fontSize="lg">
-            Home
-          </Button>
-        </Link>
-        <Link to="/artwork">
-          <Button as="a" variant="ghost" fontSize="lg">
-            Artwork
-          </Button>
-        </Link>
+        <Button
+          onClick={() => router.push("/")}
+          cursor="pointer"
+          as="a"
+          variant="ghost"
+          fontSize="lg"
+        >
+          Home
+        </Button>
+        <Button
+          onClick={() => router.push("/artwork")}
+          cursor="pointer"
+          as="a"
+          variant="ghost"
+          fontSize="lg"
+        >
+          Artwork
+        </Button>
       </HStack>
       <Divider />
     </Container>

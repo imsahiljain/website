@@ -8,8 +8,8 @@ import {
   Stack,
   Text,
   HStack,
-  Link,
 } from "@chakra-ui/react";
+import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => (

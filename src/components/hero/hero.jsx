@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Heading, Stack, Text } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -19,6 +19,7 @@ const Hero = () => {
           >
             Hi, I&apos;m{" "}
             <Link
+              href="https://www.google.com"
               style={{
                 color: "#e67cf2",
                 fontWeight: "bold",
@@ -45,7 +46,7 @@ const Hero = () => {
           >
             a 16 y/o high school senior at{" "}
             <Link
-              href="https://www.google.com"
+              href="https://www.montfortschooldelhi.in/"
               style={{
                 color: "#f36464",
                 textDecoration: "none",
@@ -62,6 +63,7 @@ const Hero = () => {
             startups, space, sports, and, surprisingly, chemistry. I enjoy
             competing; I&apos;m a{" "}
             <Link
+              href="/"
               style={{
                 color: "#ecc94b",
                 textDecoration: "none",
@@ -75,6 +77,7 @@ const Hero = () => {
             </Link>
             , an{" "}
             <Link
+              href="/artwork"
               style={{
                 color: "#ed8936",
                 textDecoration: "none",
@@ -83,13 +86,13 @@ const Hero = () => {
                   "linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(237, 137, 54, 0.25) 40%)",
                 paddingBottom: "1px",
               }}
-              to="/artwork"
             >
               artist
             </Link>
             , a frontend web developer learning backend. Currently, I&apos;m
             reading{" "}
             <Link
+              href="/"
               style={{
                 color: "#4299e1",
                 textDecoration: "none",
@@ -109,6 +112,7 @@ const Hero = () => {
           >
             Feel free to reach out via email at{" "}
             <Link
+              href="mailto:emailofsahiljain@gmail.com"
               style={{
                 color: "#05d7a0",
                 fontWeight: "bold",

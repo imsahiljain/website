@@ -4,10 +4,11 @@ import {
   Heading,
   Stack,
   Text,
-  Image,
   SimpleGrid,
   Box,
+  Image,
 } from "@chakra-ui/react";
+// import Image from "next/image";
 import { Footer } from "../footer/footer";
 
 const MainArtwork = () => {
@@ -45,48 +46,48 @@ const MainArtwork = () => {
               <Image
                 borderRadius="20px"
                 src="/paintings/eagle.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/sher.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/hampi.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/still-life.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/real.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/sculpture.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
           </SimpleGrid>
@@ -95,16 +96,16 @@ const MainArtwork = () => {
               <Image
                 borderRadius="20px"
                 src="/paintings/thor.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
             <Box>
               <Image
                 borderRadius="20px"
                 src="/paintings/canvas.jpeg"
-                w="full"
-                h="full"
+                width="100%"
+                height="100%"
               />
             </Box>
           </SimpleGrid>
