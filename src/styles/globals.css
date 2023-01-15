@@ -5,7 +5,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #17181b !important;
     background-image: url('/dots.svg') !important;
-    color: #fff;
+    /* color: #fff; */
 }
 
 @font-face {

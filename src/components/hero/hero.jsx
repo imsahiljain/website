@@ -124,7 +124,20 @@ const Hero = () => {
             >
               emailofsahiljain@gmail.com
             </Link>{" "}
-            or through any of my socials!
+            or through any of my socials! Check out my resume{" "}
+            <Link
+              href="/resume.pdf"
+              target="_blank"
+              style={{
+                color: "#bdbdbd",
+                textDecoration: "none",
+                fontWeight: "bold",
+                paddingBottom: "1px",
+              }}
+            >
+              here
+            </Link>
+            .
           </Text>
         </Stack>
       </Container>
