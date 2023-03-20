@@ -27,7 +27,7 @@ export const Navbar = () => {
             name="Sahil Jain"
             size="lg"
             borderRadius="lg"
-            src="/pfp2.jpeg"
+            src="/pfp.jpg"
             alt="Sahil Jain's Photo"
           />
         </Link>
