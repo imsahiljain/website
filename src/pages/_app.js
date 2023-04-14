@@ -15,10 +15,6 @@ function App({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/pfp.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          http-equiv="Content-Security-Policy"
-          content="default-src 'self' vitals.vercel-insights.com"
-        />
         <meta name="author" content="Sahil Jain" />
         <meta
           name="description"

@@ -44,7 +44,7 @@ const Hero = () => {
             fontSize={{ base: "2xl", md: "3xl", lg: "3xl" }}
             letterSpacing="-0.2px"
           >
-            a 16 y/o high school senior at{" "}
+            a 17 y/o high school senior at{" "}
             <Link
               href="https://www.montfortschooldelhi.in/"
               style={{
